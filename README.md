@@ -129,8 +129,7 @@ yarn start
 ### Other Tools
 
 - Axios (for HTTP requests)
-- Bcrypt (for password encryption)
 
 ## Contributors
 
-- **Your Name** - [GitHub Profile](https://github.com/yourusername)
+- **Manish kumar** - [GitHub Profile](https://github.com/Manishkumar82077)
