@@ -1,10 +1,92 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Movie Recommendation Application
 
-# Getting Started
+This is a full-stack movie recommendation application built using **React Native**, **JavaScript**, **MongoDB**, and other modern web technologies. The app allows users to browse and get personalized movie recommendations based on their preferences.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Table of Contents
 
-## Step 1: Start the Metro Server
+- [Project Details](#project-details)
+- [Skills Used](#skills-used)
+- [Features](#features)
+- [Goal of the Project](#goal-of-the-project)
+- [How to Run the Project](#how-to-run-the-project)
+- [Technologies Used](#technologies-used)
+- [Contributors](#contributors)
+
+## Project Details
+
+The **Movie Recommendation Application** provides users with a curated list of movie recommendations based on genres, ratings, and preferences. The application features a user-friendly interface and leverages a backend to handle movie data and recommendation logic.
+
+## Skills Used
+
+- **Frontend:**
+  - React Native (JavaScript)
+  - CSS for styling components
+  - Redux for state management
+
+- **Backend:**
+  - Node.js with Express.js
+  - MongoDB for database management
+  - RESTful API development
+
+- **Others:**
+  - JWT for authentication
+  - Axios for API requests
+  - MongoDB Atlas for database hosting
+
+## Features
+
+1. **User Authentication:**
+   - Users can sign up, log in, and maintain their profiles.
+
+2. **Movie Search:**
+   - Search movies by title, genre, or rating.
+
+3. **Personalized Recommendations:**
+   - Based on user preferences, history, and likes.
+
+4. **Ratings & Reviews:**
+   - Users can rate and review movies.
+
+5. **Favorite Movies:**
+   - Save favorite movies to watch later.
+
+6. **Responsive Design:**
+   - Mobile-first approach with a responsive and easy-to-use UI.
+
+7. **Dark Mode Support:**
+   - Switch between light and dark themes for better user experience.
+
+8. **Filter & Sort Movies:**
+   - Filter movies by genres, rating, and release date.
+
+## Goal of the Project
+
+The primary goal of this project is to provide users with an intuitive platform to discover new movies based on their preferences. The app aims to:
+
+- Enhance user experience through personalized recommendations.
+- Help users keep track of their favorite movies.
+- Provide a simple and effective user interface with seamless navigation.
+
+## How to Run the Project
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- **Node.js** (v14+)
+- **MongoDB** (local or cloud with MongoDB Atlas)
+- **React Native CLI** or **Expo CLI** for mobile development
+
+### Installation
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/yourusername/movie-recommendation-app.git
+   cd movie-recommendation-app
+
+
+2.  Start the Metro Server
 
 First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
 
@@ -18,62 +100,37 @@ npm start
 yarn start
 ```
 
-## Step 2: Start your Application
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
 
-### For Android
+## Technologies Used
 
-```bash
-# using npm
-npm run android
+### Frontend
 
-# OR using Yarn
-yarn android
-```
+- React Native (JavaScript)
+- Redux
+- Tailwind CSS
 
-### For iOS
+### Backend
 
-```bash
-# using npm
-npm run ios
+- Node.js
+- Express.js
+- MongoDB
+- JWT (JSON Web Token)
 
-# OR using Yarn
-yarn ios
-```
+### Database
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+- MongoDB Mongoose
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+### APIs
 
-## Step 3: Modifying your App
+- TMDB (The Movie Database) API for movie data
+- Custom RESTful API for recommendations and user data
 
-Now that you have successfully run the app, let's modify it.
+### Other Tools
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+- Axios (for HTTP requests)
+- Bcrypt (for password encryption)
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+## Contributors
 
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+- **Your Name** - [GitHub Profile](https://github.com/yourusername)
